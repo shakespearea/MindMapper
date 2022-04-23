@@ -12,6 +12,20 @@ This is the script that allows the Micro:Bit to send messages to the Max patch. 
 This MaxMSP patch is responsible for the generation of all audio.
 For an in depth description of the creation of this patch, see https://mindmappermeditate.wordpress.com/monthly-blog/
 
+|  Sensor Input & Control # |  Purpose |
+|---|---|
+|21 – Accelerometer X	| Arpeggiator Direction
+|22 – Accelerometer Y	| User control root note
+|23 – Accelerometer Z	| User control arp notes
+|24 – Compass Direction	| Pan arpeggiator
+|25 – Magnetism Strength	| Binaural beat difference
+|26 – Light Level	| Chord brightness
+|27 – Temperature	| Master LPF
+|31 – Button A	| User Contol / Fibbonacci
+|32 – Button B	| Tempo
+|33 – Button C	| Toggle Kick
+|34 – Potentiometer	| Master Volume
+
 ## System Requirements
 <ul>
   <li>MaxMSP 8 </li>
