@@ -3,10 +3,10 @@ MindMapper is an upcoming wearable meditational tool, that uses inbuilt sensors 
 
 This repository contains all the MaxMSP and Python scripts required for this project.
 
-## interfacing.py
+## MMinterfacing.py
 This is the script that allows the Micro:Bit to send messages to the Max patch. It interprets when buttons are pressed or sensor values are changed, then converts them into a MIDI message to be transmitted.
 
-## MindMapperGenerator.maxpat
+## MMGenerator.maxpat
 This MaxMSP patch is responsible for the generation of all audio.
 For an in depth description of the creation of this patch, see https://mindmappermeditate.wordpress.com/monthly-blog/
 
