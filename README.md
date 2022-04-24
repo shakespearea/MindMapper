@@ -10,7 +10,9 @@ This is the script that allows the Micro:Bit to send messages to the Max patch. 
 
 ## MMGenerator.maxpat
 This MaxMSP patch is responsible for the generation of all audio.
-For an in depth description of the creation of this patch, see https://mindmappermeditate.wordpress.com/monthly-blog/
+For an in depth description of the function of each element of this patch, see https://mindmappermeditate.wordpress.com/how-to/
+
+The table below outlines the functionality of each sensor and input, and the MIDI control number that is has been mapped to:
 
 |  Sensor Input & Control # |  Purpose |
 |---|---|
